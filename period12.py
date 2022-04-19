@@ -3,7 +3,7 @@
 from selenium import webdriver
 import time
 
-chrome_options = webdriver.ChromeOptions()
+
 prefs = {
     "download.prompt_for_download": False, # 弹窗
     "download.default_directory": "C:\\Users\\TynamYang\\Desktop\\", # 下载目录 
